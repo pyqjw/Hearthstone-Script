@@ -148,7 +148,7 @@ object GameTurnPhaseStrategy : AbstractPhaseStrategy() {
                     if (minion.isStealth) keywords.add("Stealth")
                     if (minion.isPoisonous) keywords.add("Poisonous")
                     if (minion.isRush) keywords.add("Rush")
-                    if (minion.isWindfury) keywords.add("Windfury")
+                    if (minion.isWindFury) keywords.add("Windfury")
                     if (minion.isLifesteal) keywords.add("Lifesteal")
                     if (minion.isReborn) keywords.add("Reborn")
                     if (minion.isElusive) keywords.add("Elusive")
